@@ -1,0 +1,719 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Bible Study Section */
+#bible-study {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Input */
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* View Toggle Buttons */
+.view-toggle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.view-toggle button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #ff4b2b;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.view-toggle button:hover {
+    background: #ff416c;
+}
+
+/* Bible Study Fellowship List */
+#bibleList {
+    list-style: none;
+    padding: 0;
+}
+
+/* List View */
+.list-view li {
+    background: #ff4b2b;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.list-view li:hover {
+    transform: scale(1.05);
+}
+
+/* Grid View */
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.grid-view li {
+    background: #ff4b2b;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.grid-view li:hover {
+    transform: scale(1.05);
+}
+
+/* Join Button */
+p a {
+    color: #ff4b2b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Ministries Section */
+#ministries {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Input */
+#ministrySearch {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* View Toggle Buttons */
+.view-toggle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.view-toggle button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #ff4b2b;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.view-toggle button:hover {
+    background: #ff416c;
+}
+
+/* Ministries List */
+#ministriesList {
+    list-style: none;
+    padding: 0;
+}
+
+/* List View */
+.list-view li {
+    display: flex;
+    align-items: center;
+    background: #ff4b2b;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: transform 0.3s ease;
+}
+
+.list-view li img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.list-view li:hover {
+    transform: scale(1.05);
+}
+
+/* Grid View */
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.grid-view li {
+    display: block;
+    background: #ff4b2b;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.grid-view li img {
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.grid-view li:hover {
+    transform: scale(1.05);
+}
+
+/* Join Button */
+p a {
+    color: #ff4b2b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header - Flexbox Layout */
+.header {
+    display: flex;
+    justify-content: space-between; /* Title on left, menu on right */
+    align-items: center;
+    padding: 20px 5%;
+    background: #ff4b2b;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+
+/* Title Styling (Top Left) */
+.title h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.title h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+/* Navbar Styling (Top Right) */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #ffcd02;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background: url('Website 1240x650.png') no-repeat center center/cover;
+}
+
+/* Dark Overlay */
+.hero .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Live Time */
+#currentTime {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: center;
+    color: #333;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+}
+
+/* Welcome Section */
+.welcome-section {
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-link {
+    background-color: #f4f4f4;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+.tab-link.active {
+    background-color: #d32f2f;
+    color: white;
+}
+
+.tab-content {
+    display: none; /* Hidden by default */
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.pastor-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pastor-info img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #d32f2f;
+}
+
+.pastor-info div {
+    max-width: 400px;
+    text-align: left;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.logo img {
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+}
+
+.title {
+    text-align: left;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+/* LOGO STYLING */
+.logo {
+    margin-left: -40px; /* Moves the logo slightly to the left */
+}
+
+.logo img {
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+}
+/* HEADER CONTAINER */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+/* LOGO STYLING */
+.logo img {
+    width: 120px; /* Adjust as needed */
+    height: auto;
+    margin-left: -20px; /* Moves logo slightly left */
+}
+
+/* TITLE STYLING */
+.title {
+    text-align: center;
+    flex-grow: 1; /* Pushes the title to the center */
+}
+
+.title h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.title h2, .title h3 {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* NAVIGATION MENU */
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Aligns menu to the right */
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #d82b2b; /* Highlight on hover */
+}
+/* Header Container */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(to right, #000000, #8B0000); /* Black to Dark Red */
+    color: white;
+    text-align: center;
+}
+
+/* Logo Styling */
+.logo img {
+    width: 100px; /* Adjust size */
+    margin-left: 20px; /* Move logo slightly left */
+}
+
+/* Title Styling */
+.title h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #FFD700, #FF4500); /* Gold to Orange */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Gradient Text */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.title h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #FFD700; /* Gold */
+}
+
+.title h3 {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: #FF4500; /* Deep Orange */
+}
+
+/* Navigation Menu */
+nav {
+    text-align: right;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    color: #FFD700; /* Gold */
+    text-shadow: 2px 2px 5px rgba(255, 215, 0, 0.8);
+}
+/* Header Container */
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    background: linear-gradient(to right, #000000, #8B0000); /* Black to Dark Red */
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+/* Title Styling */
+.title h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #FFD700, #FF4500); /* Gold to Orange */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFD700; /* Gold */
+    margin-top: -10px;
+}
+
+.title h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #FF4500; /* Deep Orange */
+    margin-top: -15px;
+}
+
+/* Navigation Menu */
+nav {
+    width: 100%;
+    text-align: right;
+    padding: 15px 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    color: #FFD700; /* Gold */
+    text-shadow: 2px 2px 5px rgba(255, 215, 0, 0.8);
+}
+/* Header Layout */
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    background: linear-gradient(to right, #000000, #8B0000); /* Black to Dark Red */
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+/* Logo Styling */
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.logo img {
+    max-width: 120px;
+    height: auto;
+}
+
+/* Title Styling */
+.title h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #FFD700, #FF4500); /* Gold to Orange */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFD700; /* Gold */
+    margin-top: -10px;
+}
+
+.title h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #FF4500; /* Deep Orange */
+    margin-top: -15px;
+}
+
+/* Navigation Menu */
+nav {
+    width: 100%;
+    text-align: center;
+    padding: 15px 40px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    padding: 20px 15px;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    color: #FFD700; /* Gold */
+    text-shadow: 2px 2px 5px rgba(255, 215, 0, 0.8);
+}
+.top-ribbon {
+    background-color: #c91515;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.top-ribbon a {
+    color: #f1c40f;
+    text-decoration: none;
+}
+
+.header-container {
+    margin-top: 50px; /* Pushes the header below the ribbon */
+}
